@@ -3,9 +3,14 @@
   <ItemGroup>
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\render\window.c" />
+    <ClCompile Include="src\io\file.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\render\window.h" />
     <ClInclude Include="src\util\util.h" />
+    <ClInclude Include="src\io\file.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\hello_world.txt" />
   </ItemGroup>
 </Project>
