@@ -11,6 +11,9 @@
     <ClInclude Include="src\io\file.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="res\hello_world.txt" />
+    <Text Include="res\vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\fragment.glsl" />
   </ItemGroup>
 </Project>
