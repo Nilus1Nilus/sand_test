@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "io/file.h"
+#include "io/file/file.h"
 #include "util/util.h"
 
 char* io_file_read_file(const char* path) {

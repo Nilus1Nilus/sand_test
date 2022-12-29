@@ -2,13 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.c" />
-    <ClCompile Include="src\render\window.c" />
-    <ClCompile Include="src\io\file.c" />
+    <ClCompile Include="src\io\file\file.c" />
+    <ClCompile Include="src\render\render.c" />
+    <ClCompile Include="src\render\render_internal.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\render\window.h" />
     <ClInclude Include="src\util\util.h" />
-    <ClInclude Include="src\io\file.h" />
+    <ClInclude Include="src\io\file\file.h" />
+    <ClInclude Include="src\render\render.h" />
+    <ClInclude Include="src\render\render_internal.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="res\vertex.glsl" />
