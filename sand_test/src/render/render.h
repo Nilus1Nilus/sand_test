@@ -21,3 +21,5 @@ typedef struct shader_program {
 } ShaderProgram;
 
 void render_shader_init(ShaderProgram*, const char*, const char*);
+void render_start_shader(ShaderProgram*);
+void render_stop_shader(void);

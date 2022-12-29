@@ -38,3 +38,12 @@ void render_shader_init(ShaderProgram* shader_program, const char* vertex_path, 
 	glDeleteShader(shader_program->vertex_shader);
 	glDeleteShader(shader_program->fragment_shader);
 }
+
+
+void render_start_shader(ShaderProgram* shader) {
+	glUseProgram(shader->program);
+}
+
+void render_stop_shader(void) {
+	glUseProgram(0);
+}
